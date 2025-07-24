@@ -21,3 +21,6 @@
         </article>
     </body>
 </html>
+
+<a href="{% url 'post_detail' pk=post.pk %}">Comments: {{ post.approved_comments.count }}</a>
+
